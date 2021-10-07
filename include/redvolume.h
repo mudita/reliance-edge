@@ -87,7 +87,7 @@ typedef struct
   #endif
 } VOLCONF;
 
-extern const VOLCONF gaRedVolConf[REDCONF_VOLUME_COUNT];
+extern VOLCONF gaRedVolConf[REDCONF_VOLUME_COUNT];
 extern const VOLCONF * CONST_IF_ONE_VOLUME gpRedVolConf;
 
 
@@ -149,4 +149,3 @@ extern CONST_IF_ONE_VOLUME uint8_t gbRedVolNum;
 extern VOLUME * CONST_IF_ONE_VOLUME gpRedVolume;
 
 #endif
-
